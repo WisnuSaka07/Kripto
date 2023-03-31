@@ -1,0 +1,140 @@
+body {
+	background-color: #d9e2ef;
+	font-family: Arial, sans-serif;
+}
+body {
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+.form-container {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #a8a8a8;
+	margin: 10% auto;
+	max-width: 400px;
+	padding: 20px;
+	text-align: center;
+}
+
+.form-container h1 {
+	color: #444;
+	margin-bottom: 30px;
+}
+
+.form-container label {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.form-container input[type="text"] {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 14px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-container input[type="button"] {
+	background-color: #1e88e5;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 10px;
+	transition: all 0.3s ease;
+	width: 100%;
+}
+
+.form-container input[type="button"]:hover {
+	background-color: #0d47a1;
+}
+
+/* Popup */
+.popup {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.popup-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px #a8a8a8;
+	text-align: center;
+}
+
+.close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.login-box {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #a8a8a8;
+	margin: 10% auto;
+	max-width: 400px;
+	padding: 20px;
+	text-align: center;
+}
+
+.login-box h1 {
+	color: #444;
+	margin-bottom: 30px;
+}
+
+.login-box label {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 14px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.login-box input[type="submit"] {
+	background-color: #1e88e5;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 10px;
+	transition: all 0.3s ease;
+	width: 100%;
+}
+
+.login-box input[type="submit"]:hover {
+	background-color: #0d47a1;
+}

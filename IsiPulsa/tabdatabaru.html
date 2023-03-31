@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Pengisian Pulsa</title>
+	<link rel="stylesheet" href="tabcsslogin.css">
+</head>
+<body>
+  <div >
+	<h1>Data Pengisian Pulsa</h1>
+    <ul style="text-align: center;" id="list-data"></ul>
+  </div>
+  <div class="login-container">
+	<h1>Dekrip Data Pulsa</h1>
+    <input type="dekrip" id="dekrip" name="dekrip" placeholder="Masukkan Data Enkripsinya" required>
+    <input type="key1" id="key1" name="key1" placeholder="Masukkan key1" required>
+    <input type="key2" id="key2" name="key2" placeholder="Masukkan key2" required>
+    </br>
+	<button type="submit" id="submit" onclick="">Masuk</button>
+    
+  </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="cthfirebase.js"></script>
+    <script src="tabjsdata.js"></script>
+</body>
+</html>

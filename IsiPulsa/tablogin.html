@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Halaman Login</title>
+	<link rel="stylesheet" href="tabcsslogin.css">
+</head>
+<body>
+	<div class="login-container">
+		<h2>Admin Only</h2>
+		<form action="tabdatabaru.html" method="post">
+			<label for="Username">Username</label>
+			<input type="Username" id="Username" name="Username" placeholder="Masukkan Username" required>
+            </br>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" placeholder="Masukkan Password" required>
+            </br>
+			<button type="submit" onclick="validateLogin()">Masuk</button>
+		</form>
+	</div>
+    <script src="tabjslogin.js"></script>
+</body>
+</html>
